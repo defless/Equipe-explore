@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "browsernizr": "^2.1.0",
+    "gh-pages": "^2.0.1",
     "jquery": "^3.1.1",
     "jquery-mousewheel": "^3.1.13",
     "react": "^15.5.4",
@@ -25,7 +26,9 @@
     "build": "npm run build-css && react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
-  "homepage": "./"
+  "homepage": "https://defless.github.io/equipe-explore"
 }

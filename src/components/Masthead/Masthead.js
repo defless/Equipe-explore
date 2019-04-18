@@ -14,28 +14,40 @@ export default class Element extends Component {
             <div className="Masthead">
                 <div className="Masthead__item">
                     <span className="Masthead__label white">Conçu, écrit et réalisé par</span>
-                    <span className="Masthead__details">Charlotte Durand, Aurore Gayte, Gabrielle Ramain, Clotilde Ravel, Léa Sanchez, Lucas Wicky, Marie Zafimehy (avec Solène de Larquier)<a href="//twitter.com/sciencespoEDJ" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a></span>
-                </div>
-                <div className="Masthead__item">
-                    <span className="Masthead__label white">Traductions</span>
-                    <span className="Masthead__details">Caroline Bossard, Sigi Hofmann, Annie Métral, Mathilde Saliou, Yann Schreiber, Victoria Wegner</span>
+                    <span className="Masthead__details"> Lohan Benaati, Pierre Billaud, Clément Bouynet, Marina Guibert <a href="//twitter.com/IjbaOfficiel" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a></span>
                 </div>
                 <div className="Masthead__item">
                     <span className="Masthead__label white">Développeur</span>
-                    <span className="Masthead__details">Raphaël Dardeau<a href="//twitter.com/iron_dev" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a></span>
+                    <span className="Masthead__details">Simon Deflesschouwer <a class="github-button" href="https://github.com/defless" aria-label="Follow @defless on GitHub">Github</a> </span>
+                </div>
+                <div className="Masthead__item">
+                    <span className="Masthead__label white">Graphiste</span>
+                    <span className="Masthead__details">Alexis Corbineau</span>
+                </div>
+                <div className="Masthead__item">
+                    <span className="Masthead__label white">Illustrations</span>
+                    <span className="Masthead__details">Elliot Raimbeau<a href="//twitter.com/eraimbeau" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a></span>
+                </div>
+                 <div className="Masthead__item">
+                    <span className="Masthead__label white">Conseillère de rédaction</span>
+                    <span className="Masthead__details">Rayya Roumanos</span>
+                </div>
+                 <div className="Masthead__item">
+                    <span className="Masthead__label white">Directeur de la publication</span>
+                    <span className="Masthead__details">Arnaud Schwartz</span>
                 </div>
                 <div className="Masthead__item">
                     <span className="Masthead__label"></span>
                     <span className="Masthead__details"></span>
                 </div>
                 <div className="Masthead__item Masthead__item--full">
-                    <span className="Masthead__details"><span className="Masthead__label white">Photos :</span> Charlotte Durand ; collections personnelles d’Erik Schinegger et de Maria José Martínez-Patiño ; Athletics Federation of India (CC BY-SA 4.0) ; karlschranz.com (CC BY-SA 3.0) ; JD Noske, Anefo / Nationaal Archief (CC BY-SA 3.0 NL) et archives L’Equipe.</span>
+                    <span className="Masthead__details"><span className="Masthead__label white">Photos :</span> Archives L’Équipe</span>
                 </div>
                 <div className="Masthead__item Masthead__item--full">
-                    <span className="Masthead__details"><span className="Masthead__label white">Vidéos :</span> Charlotte Durand, Aurore Gayte</span>
+                    <span className="Masthead__details"><span className="Masthead__label white">Vidéos :</span> Pierre Billaud, Pascal Simon, Lucas Ngouembe</span>
                 </div>
                 <div className="Masthead__item Masthead__item--full">
-                    <span className="Masthead__details"><span className="Masthead__label white">Remerciements :</span> Philippe Peyre de l’AJL (Association des Journalistes LGBT), Grégory Blachier, Simon Ruben, Patrice Trapier, Ecole de Journalisme de Sciences Po, Erik et Christa Schinegger</span>
+                    <span className="Masthead__details"><span className="Masthead__label white">Remerciements :</span> FC Girondins de Bordeaux, FC Lorient, Boxers de Bordeaux, Institut de journalisme Bordeaux-Aquitaine, IUT Bordeaux Montaigne et ses élèves de la section Métiers du multimédia et de l’Internet, Ligue de Football Professionnel, CREPS Dijon, Félix Bénard, Marie Le Menn, Frédéric Laharie, Florian Chaaban, Paolo Philippe</span>
                 </div>
             </div>
         );

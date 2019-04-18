@@ -10,7 +10,7 @@
     transition:left $effect-slide-duration $effect-slide;
     transform:translateZ(0);
     overflow:hidden;
-    background-image:linear-gradient(#f9f9f9, #afbbca);
+    background-color:white;
 
     html.no-hiddenscroll & {
         transition:left $effect-scroll-duration $effect-scroll;

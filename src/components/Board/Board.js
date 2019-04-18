@@ -67,21 +67,28 @@ export default class Board extends Component {
                 {/* CHAP 0 - Introduction */}
 
                  <div className="Board__slide Board__slide--top">
-                    <Edito content={this.props.datas.text[0].zone_1} positionTop="50%"></Edito>
-                    <Element name="TITLE1.png" ></Element>
+                    <Edito content={this.props.datas.text[0].zone_1} positionTop="65%"></Edito>
                 </div>
                 <div className="Board__slide Board__slide--top">
                     <Edito content={this.props.datas.text[0].zone_2} positionTop="27%"></Edito>
-                    <Element name="SPRAY1.png" positionLeft="-10%"  ></Element>
+                    <Element name="SPRAY-PLAYER.png" positionLeft="-77%"></Element>
                 </div>
                 <div className="Board__slide">
-                    <Video id="x75q393" maxHeight="400" ratio="1.8"></Video>
+                    <Video id="x75wut4" maxHeight="400" ratio="1.8"></Video>
+                    <Element name="SPRAY0.png" positionLeft="-22%"></Element>
                 </div>
                 <div className="Board__slide Board__slide--top">
                     <Edito content={this.props.datas.text[0].zone_3} positionLeft="20%" positionTop="37%"></Edito>
                 </div>
+                <div className="Board__slide">
+                    <Video id="x75q393" maxHeight="400" ratio="1.8"></Video>
+                    <Element name="SPRAY1.png" positionLeft="-30%"  ></Element>
+                </div>
                  <div className="Board__slide">
-                    <Element name="PLAYER1.png" index="p2" positionLeft="-40%"></Element>
+                    <Element name="PLAYER1.png" positionLeft="5%"></Element>
+                    <Element name="EXERGUECHAP0.png" positionLeft="5%"></Element>
+                </div>
+                 <div className="Board__slide board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}}>
                 </div>
 
                 {/* CHAP 1 */}
@@ -93,11 +100,12 @@ export default class Board extends Component {
                 </div>
                 
                 <div className="Board__slide Board__slide--bottom" >
+                    <Element name="EXERGUECHAP1.png" positionLeft="10%"></Element>
                     <Edito content={this.props.datas.text[1].zone_1} positionBottom="15%"></Edito>
                 </div>
                 <div className="Board__slide  Board__slide--top">
-                    <Element name="PLAYER2.png" positionLeft="20%" index="p1"></Element>
-                    <Element name="SPRAY2.png" positionLeft="40%" ></Element>
+                    <Element name="SPRAY2.png" positionLeft="45%" ></Element>
+                    <Element name="PLAYER2.png" positionLeft="26%"></Element>
                 </div>
                 <div className="Board__slide" style={!mobile ? {minWidth: '55vh'} : {}}>
                     <Edito content={this.props.datas.text[1].zone_2}  positionTop="40%" positionLeft="-10%" ></Edito>
@@ -115,16 +123,17 @@ export default class Board extends Component {
                 </div>
                 <div className="Board__slide Board__slide--middle">
                     <Element name="PLAYER3.png" positionLeft="35%" ></Element>
-                    <Element name="QUOTE2.png" positionLeft="20%" index="p1"></Element>
+                    <Element name="QUOTE2.png" positionLeft="20%"></Element>
                 </div>
                 <div className="Board__slide">
 
                 </div>
-                <div className="Board__slide Board__slide--top">
-                    <Edito content={this.props.datas.text[1].zone_3} positionTop="13%"></Edito>
+                <div className="Board__slide Board__slide--middle">
+                    <Edito content={this.props.datas.text[1].zone_3}></Edito>
                 </div>
-                <div className="Board__slide Board__slide--top">
-                    <Edito content={this.props.datas.text[1].zone_4} positionTop="25%"></Edito>
+                <div className="Board__slide Board__slide--middle">
+                    <Element name="TROPHEE.png" positionLeft="-110%"></Element>
+                    <Edito content={this.props.datas.text[1].zone_4}></Edito>
                 </div>
 
                 {/* CHAP 2 */}
@@ -136,39 +145,39 @@ export default class Board extends Component {
                 </div>
                 <div className="Board__slide Board__slide--bottom red white">
                     <Element name="SPRAY4.png"  ></Element>
-                    <Element name="QUOTE3.png" positionLeft="10%"></Element>
+                    <Element name="EXERGUECHAP2.png" positionLeft="10%"></Element>
                     
                 </div>
                 <div className="Board__slide Board__slide--middle red white">
                     <Edito content={this.props.datas.text[2].zone_1} positionTop="20%"> positionLeft="20%"</Edito>
                 </div>
                 <div className="Board__slide Board__slide--bottom red white">
-                    <Element name="SPRAY5.png" index="p2" positionLeft="0%"></Element>
-                    <Element name="QUOTE4.png" index="p2" positionLeft="0%"></Element>
+                    <Element name="SPRAY5.png" positionLeft="0%"></Element>
+                    <Element name="QUOTE4.png" positionLeft="0%"></Element>
 
                 </div>
                 <div className="Board__slide Board__slide--bottom red white">
-                    <Element name="BACKGROUND1.png" positionLeft="55%"></Element>
+                    <Element name="SPRAY-BG3.png" positionLeft="55%"></Element>
                 </div>
                 <div className="Board__slide Board__slide--bottom red white">
                     <Video id="x75q3ih" maxHeight="400" ratio="1.8" ></Video>
                 </div>
-                <div className="Board__slide Board__slide--bottom red white">
-                    <Edito content={this.props.datas.text[2].zone_2} positionBottom="15%"></Edito>
+                <div className="Board__slide Board__slide--top red white">
+                    <Edito content={this.props.datas.text[2].zone_2} positionTop="20%" ></Edito>
                 </div>
                 <div className="Board__slide red">
                     <Video id="x75q3jt" maxHeight="400" ratio="1.8" ></Video>
                 </div>
-                <div className="Board__slide Board__slide--bottom red white">
-                    <Edito content={this.props.datas.text[2].zone_3}  positionBottom="28%"></Edito>
-                    <Element name="BACKGROUND2.png" positionLeft="33%"></Element>
+                <div className="Board__slide Board__slide--top red white">
+                    <Edito content={this.props.datas.text[2].zone_3} positionTop="20%"  ></Edito>
                 </div>
                 <div className="Board__slide Board__slide--bottom red white">
-                    <Video id="x75q3jt" maxHeight="400" ratio="1.8" ></Video>
+                    <Video id="x75zedn" maxHeight="400" ratio="1.8" ></Video>
                 </div>
                 <div className="Board__slide Board__slide--top red white">
-                    <Edito content={this.props.datas.text[2].zone_4} positionTop="20%"></Edito>
+                    <Edito content={this.props.datas.text[2].zone_4} positionTop="20%" ></Edito>
                  </div>
+                 <div className="Board__slide Board__slide--middle red white board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}}></div>
 
                 {/* CHAP 3 */}
 
@@ -177,15 +186,16 @@ export default class Board extends Component {
                 </div>
                 <div className="Board__slide board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}}></div>
                 <div className="Board__slide Board__slide--top">
-                    <Element name="SPRAY6.png" positionLeft="15%" index="m1"></Element>
-                    <Element name="QUOTE5.png" positionLeft="15%" index="m1"></Element>
+                    <Element name="SPRAY6.png" positionLeft="25%" ></Element>
+                    <Element name="EXERGUECHAP3.png" positionLeft="25%" ></Element>
                 </div>
                 <div className="Board__slide board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}}></div>
                 <div className="Board__slide Board__slide--top">
                     <Edito content={this.props.datas.text[3].zone_1} positionTop="30%"></Edito>
                 </div>
-                <div className="Board__slide board-small-slide" style={!mobile ? {minWidth: '65vh'} : {}}>
-                    <Element name="VIDEO-SPRAY.png" ></Element>
+                <div className="Board__slide">
+                    <Element name="VIDEO-SPRAY.png"></Element>
+                    <Element name="VIDEO-EXERGUE.png"></Element>
                     <Video id="x75q3n2" maxHeight="400" ratio="1.8" ></Video>
                 </div>
                  <div className="Board__slide board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}}></div>
@@ -194,25 +204,41 @@ export default class Board extends Component {
                     <Edito content={this.props.datas.text[3].zone_2}  positionBottom="18%"></Edito>
                 </div>
                 <div className="Board__slide">
-                    <Element name="PHOTO2.png" positionBottom="30%" positionLeft="-20%" ></Element>
-                    <Edito content={this.props.datas.text[3].zone_3} positionTop="30%"></Edito>
+                    <Element name="PHOTO2.png" positionBottom="35%" positionLeft="-20%" ></Element>
+                    <Edito content={this.props.datas.text[3].zone_3} positionTop="28%"></Edito>
                 </div>
-                <div className="Board__slide Board__slide--top">
-                    <Edito content={this.props.datas.text[3].zone_3} positionTop="12%"></Edito>
+                <div className="Board__slide Board__slide--middle">
+                    <Edito content={this.props.datas.text[3].zone_4} positionTop="12%"></Edito>
+                    <Element name="GANTS.png" positionRight="-12%" positionBottom="3%"></Element>
                 </div>
-                <div className="Board__slide Board__slide--top">
-                    <Edito content={this.props.datas.text[3].zone_4} positionTop="30%"></Edito>
-                </div>
-                <div className="Board__slide Board__slide--bottom">
-                    <Edito content={this.props.datas.text[3].zone_7} positionBottom="25%"></Edito>
+                <div className="Board__slide">
+                    <Video id="x75zax3" maxHeight="400" ratio="1.5" ></Video>
                 </div>
                 <div className="Board__slide Board__slide--bottom">
-                    <Edito content={this.props.datas.text[3].zone_8} positionBottom="20%"></Edito>
+                    <Edito content={this.props.datas.text[3].zone_5} positionBottom="25%"></Edito>
+                    <Element name="SPRAY-BG.png" positionLeft="-20%"></Element>
                 </div>
-                 <div className="Board__slide js-board-doubleslide">
-                    <Video id="k6nQH9clutLjhlqxEZX" maxHeight="800" ratio="0.561"></Video>
-					<Element name="FOND9.png" positionLeft="-80vh" index="p1"></Element>
+                <div className="Board__slide Board__slide--bottom">
+                    <Element name="PLAYER4-TAG.png" positionLeft="-70%"></Element>
+                    <Element name="PLAYER4.png" positionLeft="0vh"></Element>
                 </div>
+                 <div className="Board__slide">
+                    <Video id="x75q3oh" maxHeight="400" ratio="1.8" ></Video>
+                </div>
+                <div className="Board__slide Board__slide--middle">
+                    <Edito content={this.props.datas.text[3].zone_6}></Edito>
+                </div>
+                <div className="Board__slide">
+                    <Video id="x75q3pi" maxHeight="400" ratio="1.8" ></Video>
+                </div>
+                <div className="Board__slide Board__slide--middle">
+                    <Edito content={this.props.datas.text[3].zone_7} ></Edito>
+                </div>
+                <div className="Board__slide Board__slide--top">
+                    <Element name="PLAYER5-TAG.png" positionLeft="-90%" positionTop="-15%"></Element>
+                    <Element name="PLAYER5.png" positionLeft="-90%" ></Element>
+                </div>
+                <div className="Board__slide board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}}></div>
 
                 {/* CHAP04 - Conclusion */}
 
@@ -220,39 +246,38 @@ export default class Board extends Component {
                     <Skew position="left" name="CHAP04-TITRE.png" bg="CHAP04-OUVERTURE.png"></Skew>
                 </div>
                 <div className="Board__slide only_blue board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}}></div>
-                <div className="Board__slide Board__slide--top white only_blue">
-                    <Edito content={this.props.datas.text[4].zone_1} positionTop="11%"></Edito>
-                    <Element name="FOND19-CHALET.png" positionLeft="-5%"></Element>
+                <div className="Board__slide Board__slide--bottom">
+                    <Element name="SPRAY7.png" ></Element>
+                    <Element name="EXERGUECHAP4.png" ></Element>
+                    <Element name="PLAYER6.png" ></Element>
+                    <Edito content={this.props.datas.text[4].zone_1}> positionBottom="30%" </Edito>
                 </div>
-                <div className="Board__slide Board__slide--middle only_blue">
-                    <Element name="CHAP04-PHOTO1.png" index="p1" positionLeft="-1%"></Element>
-                    <Element name="CHAP04-PHOTO1A.png" index="p2" positionLeft="-1%"></Element>
-                </div>
+                <div className="Board__slide only_blue board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}}></div>
                 <div className="Board__slide Board__slide--bottom only_blue">
-                    <Element name="CHAP04-CITATION1.png" positionLeft="10%"></Element>
+                    <Video id="x75zeja" maxHeight="400" ratio="1.8" ></Video>
+                </div>
+                <div className="Board__slide only_blue board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}}></div>
+                <div className="Board__slide Board__slide--top white only_blue">
+                    <Element name="SPRAY-BG2.png" positionLeft="-20%"></Element>
+                    <Edito content={this.props.datas.text[4].zone_2} positionTop="12%"></Edito>
                 </div>
                 <div className="Board__slide Board__slide--top white only_blue">
-                    <Element name="FOND21.png" index="m1" positionLeft="-20%"></Element>
-                    <Edito content={this.props.datas.text[4].zone_2} positionTop="20%"></Edito>
-                </div>
-                <div className="Board__slide Board__slide--top white only_blue">
-                    <Element name="FOND16-ALLIANCESINV.png" positionLeft="-15vh"></Element>
+                    <Element name="PLAYER7.png" positionLeft="-90%"></Element>
                     <Edito content={this.props.datas.text[4].zone_3} positionTop="17%"></Edito>
+                    <Element name="BALL.png" positionLeft="-100%"></Element>
                 </div>
-                <div className="Board__slide board-small-slide" style={!mobile ? {minWidth: '65vh'} : {}}>
-                    <StaticElement bg="AP-CHAP04-CITATIONGERD.png" name="CHAP04-CITATION2.png" size="simple"></StaticElement>
+                <div className="Board__slide">
+                    <Video id="x75zf2a" maxHeight="400" ratio="1.8" ></Video>
                 </div>
                 <div className="Board__slide Board__slide--bottom only_blue white">
-                    <Element name="FOND12.png" index="m1" positionLeft="-10%"></Element>
-                    <Edito content={this.props.datas.text[4].zone_4} positionBottom="15%"></Edito>
+                    <Edito content={this.props.datas.text[4].zone_4} positionBottom="40%" ></Edito>
+                    <Element name="CORNER.png" positionRight="-55%"></Element>
                 </div>
-                <div className="Board__slide Board__slide--bottom only_blue white board-small-slide" style={!mobile ? {minWidth: '80vh'} : {}}>
-                    <Element name="FOND20-FIN.png" index="p1" positionLeft="-76%" ></Element>
-                    <Element name="CHAP04-PHOTO2.png" index="p1" positionLeft="0%"></Element>
+                <div className="Board__slide">
+                    <Video id="x75zfd9" maxHeight="400" ratio="1.8" ></Video>
                 </div>
-                <div className="Board__slide Board__slide--top only_blue white">
-                    <Edito content={this.props.datas.text[4].zone_5} positionTop="15%"></Edito>
-                    <Element name="FOND23-medaille.png" positionRight="50vh" index="p1"></Element>
+                <div className="Board__slide Board__slide--middle only_blue white">
+                    <Edito content={this.props.datas.text[4].zone_5} ></Edito>
                 </div>
                 <div className="Board__slide only_blue">
                     <Skew position="left" bg="OURS.png" ></Skew>
