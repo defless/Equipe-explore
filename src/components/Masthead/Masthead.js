@@ -11,6 +11,7 @@ export default class Element extends Component {
     render() {
 
         return (
+            
             <div className="Masthead">
                 <div className="Masthead__item">
                     <span className="Masthead__label white">Conçu, écrit et réalisé par</span>
