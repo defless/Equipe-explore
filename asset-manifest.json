@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.64813bfe.css",
   "main.css.map": "static/css/main.64813bfe.css.map",
-  "main.js": "static/js/main.dfc8871a.js",
-  "main.js.map": "static/js/main.dfc8871a.js.map",
+  "main.js": "static/js/main.e2a26a88.js",
+  "main.js.map": "static/js/main.e2a26a88.js.map",
   "static/media/AP-CHAP03-PHOTO.png": "static/media/AP-CHAP03-PHOTO.3b60cf81.png",
   "static/media/AP-CHAP04-CITATIONGERD.png": "static/media/AP-CHAP04-CITATIONGERD.acf1888a.png",
   "static/media/BALL.png": "static/media/BALL.aaddcac3.png",
@@ -21,7 +21,7 @@
   "static/media/CORNER.png": "static/media/CORNER.491733be.png",
   "static/media/COVER-DESK.jpg": "static/media/COVER-DESK.98832063.jpg",
   "static/media/COVER-MOB.jpg": "static/media/COVER-MOB.589abee7.jpg",
-  "static/media/EXERGUECHAP0.png": "static/media/EXERGUECHAP0.2653bd85.png",
+  "static/media/EXERGUECHAP0.png": "static/media/EXERGUECHAP0.94b75d01.png",
   "static/media/EXERGUECHAP1.png": "static/media/EXERGUECHAP1.8cff1dc5.png",
   "static/media/EXERGUECHAP2.png": "static/media/EXERGUECHAP2.4fc22224.png",
   "static/media/EXERGUECHAP3.png": "static/media/EXERGUECHAP3.7b6602dd.png",
@@ -65,7 +65,7 @@
   "static/media/TROPHEE.png": "static/media/TROPHEE.d25aa6e5.png",
   "static/media/TUTORIAL-LANDSCAPE.png": "static/media/TUTORIAL-LANDSCAPE.6a883dda.png",
   "static/media/TUTORIAL-PORTRAIT.png": "static/media/TUTORIAL-PORTRAIT.d491d06c.png",
-  "static/media/VIDEO-EXERGUE.png": "static/media/VIDEO-EXERGUE.30b209fb.png",
-  "static/media/VIDEO-SPRAY.png": "static/media/VIDEO-SPRAY.1bc3bb39.png",
+  "static/media/VIDEO-EXERGUE.png": "static/media/VIDEO-EXERGUE.4cabc191.png",
+  "static/media/VIDEO-SPRAY.png": "static/media/VIDEO-SPRAY.841d3aff.png",
   "static/media/VIDEO-SPRAY2.png": "static/media/VIDEO-SPRAY2.27be2881.png"
 }
