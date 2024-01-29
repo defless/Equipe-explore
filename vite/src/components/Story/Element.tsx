@@ -4,9 +4,10 @@ interface ElementProps {
   top?: string;
   left?: string;
   width?: string;
+  height?: string,
 }
 
-const Element = ({ children, top, left, width, className }: ElementProps) => {
+const Element = ({ children, top, left, width, height, className }: ElementProps) => {
   return (
     <div className="h-screen flex">
       <div
@@ -15,6 +16,7 @@ const Element = ({ children, top, left, width, className }: ElementProps) => {
           top: top || '0',
           left: left || '0',
           width: width || '100%',
+          height: height || '100%',
         }}
       >
         {children}

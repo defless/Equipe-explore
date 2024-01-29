@@ -1,5 +1,7 @@
 import { texts } from '../../assets/ressources'
 
+import './index.sass';
+
 interface ElementProps {
   textKey: string;
   className?: string;
