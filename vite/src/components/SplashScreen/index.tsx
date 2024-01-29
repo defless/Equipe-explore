@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useTimeout } from '@junipero/react';
 
-import './index.scss';
+import './index.sass';
 
 const SplashScreen = () => {
   const [loading, setLoading] = useState(true);

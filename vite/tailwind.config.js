@@ -6,7 +6,8 @@ export default {
   ],
   theme: {
     colors: {
-      'coal':'#101010'
+      'coal':'#101010',
+      'white':'#ffffff'
     },
     extend: {},
   },
